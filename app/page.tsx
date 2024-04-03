@@ -1,9 +1,6 @@
 "use client";
 import { useState } from "react";
-import {
-  customerIoIdentify,
-  customerIoTrack,
-} from "./components/customerIoUtils";
+import { customerIoIdentify, customerIoTrack } from "./utils/customerIoUtils";
 import InputComponent from "./components/InputComponent";
 import Script from "next/script";
 

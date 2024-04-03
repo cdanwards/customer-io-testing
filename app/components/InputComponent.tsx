@@ -17,16 +17,9 @@ const InputComponent = ({
   type = "text",
   placeholder,
 }: InputComponentProps) => {
-  // Handler for input value changes
   const handleChange = (e) => {
     setValue(e.target.value);
   };
-
-  // Optionally, you can use useEffect to handle side effects when value changes
-  // useEffect(() => {
-  //   // Some side effect when value changes
-  // }, [value]);
-
   return (
     <div className="mb-4">
       {label && (
