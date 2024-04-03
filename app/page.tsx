@@ -23,7 +23,7 @@ export default function Home() {
                   s = document.getElementsByTagName('script')[0];
               t.async = true;
               t.id    = 'cio-tracker';
-              t.setAttribute('data-site-id', 'f21a9e32dd81293dd17f');
+              t.setAttribute('data-site-id', "${siteID}");
               t.setAttribute('data-use-array-params', 'true');
               t.setAttribute('data-use-in-app', 'true');
               t.setAttribute('data-cross-site-support', true);
