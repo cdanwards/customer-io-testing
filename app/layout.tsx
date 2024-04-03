@@ -38,8 +38,7 @@ export default function RootLayout({
               t.setAttribute('data-cross-site-support', true);
               t.src = 'https://assets.customer.io/assets/track.js';
               s.parentNode.insertBefore(t, s);
-          })();
-      `,
+          })()`,
           }}
         ></Script>
       </body>

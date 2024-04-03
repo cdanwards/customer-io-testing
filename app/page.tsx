@@ -14,7 +14,10 @@ export default function Home() {
       <button
         className="bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-150 ease-in-out"
         onClick={() =>
-          customerIoIdentify({ email: "testingforaaron@fake.com" })
+          customerIoIdentify({
+            email: "testingemailforaaron@test.com",
+            id: "324312",
+          })
         }
       >
         Click me
